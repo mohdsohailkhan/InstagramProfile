@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.header1 .left{
+    display: flex;
+    align-items: center;
+}
+.header1 h1{
+    margin-left: 1.2rem;
+}
+.header1 .left #tick{
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    color: rgba(0, 0, 255, 0.62);
+}
+.header1 .right #bell{
+    margin-right: 1.6rem;
+}
+.header1 i{
+    font-size: 1.5rem;
+}
+.header2{
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    align-items: center;
+}
+.header2 .left img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+.header2 .left h3{
+    margin-top: 0.5rem;
+}
+.header2 .right{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.bio{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.bio h5 span{
+    color: rgb(140, 139, 139);
+}
+.buttons{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1.3rem;
+}
+.buttons .b1{
+    width: 7rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(140, 139, 139);
+    border: 1px solid rgb(140, 139, 139);
+    margin-left: 0.4rem;
+    font-weight: bold;
+}
+.buttons .b2{
+    width: 7rem;
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    background-color:  rgba(0, 0, 255, 0.62);
+    border: 1px solid rgba(0, 0, 255, 0.62);
+    font-weight: bold;
+}
+.stories{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.stories .pic{
+    margin-left: 0.8rem;
+}
+.stories .pic img{
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+}
+footer{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin-top: 2rem;
+   grid-gap: 0.2rem;
+}
+footer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
